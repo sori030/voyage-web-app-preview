@@ -1,4 +1,4 @@
-const CACHE_NAME = 'voyage-travel-kit-v5';
+const CACHE_NAME = 'voyage-travel-kit-v6';
 const APP_SHELL = [
   './',
   './index.html',
