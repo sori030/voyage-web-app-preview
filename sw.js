@@ -1,4 +1,4 @@
-const CACHE_NAME = 'sori-trip-travel-kit-v14';
+const CACHE_NAME = 'sori-trip-travel-kit-v15';
 const APP_SHELL = [
   './',
   './index.html',
