@@ -1,4 +1,4 @@
-const CACHE_NAME = 'sori-trip-travel-kit-v25';
+const CACHE_NAME = 'sori-trip-travel-kit-v26';
 const APP_SHELL = [
   './',
   './index.html',
@@ -36,7 +36,7 @@ self.addEventListener('fetch', event => {
     const isAppShell = event.request.mode === 'navigate' || event.request.url.endsWith('/index.html');
     if (isAppShell) {
       try {
-        const response = await fetch(event.request);
+        const response = await fetch(event.request, {cache: 'no-store'});
         const cache = await caches.open(CACHE_NAME);
         cache.put(event.request, response.clone());
         return response;
