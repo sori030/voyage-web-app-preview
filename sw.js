@@ -1,9 +1,10 @@
-const CACHE_NAME = 'sori-trip-travel-kit-v23';
+const CACHE_NAME = 'sori-trip-travel-kit-v24';
 const APP_SHELL = [
   './',
   './index.html',
   'https://unpkg.com/react@18.3.1/umd/react.development.js',
   'https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js',
+  'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2',
   'https://unpkg.com/@babel/standalone@7.29.0/babel.min.js',
   'https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css'
 ];
